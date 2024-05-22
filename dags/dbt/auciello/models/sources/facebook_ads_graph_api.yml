@@ -1,0 +1,10 @@
+sources:
+- database: auciello-design
+  name: facebook_ads_graph_api
+  schema: facebook_ads_graph_api
+  description: Fonte de dados criada através de requisições feitas em Python na API do Facebook Graph API
+  tables:
+  - identifier: p_ads_AdsBasicStats_Full
+    name: p_ads_AdsBasicStats
+    description: Criado com o Job do **[Cloud Scheduler](https://console.cloud.google.com/cloudscheduler/jobs/edit/us-central1/graph_api_python_every_4_hours?hl=pt-br&project=auciello-design)**
+version: 2

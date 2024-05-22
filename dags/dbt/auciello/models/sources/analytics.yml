@@ -1,0 +1,11 @@
+sources:
+- database: auciello-design
+  name: analytics
+  schema: analytics_337440572
+  description: Base de dados proveninete da Vinculação do Google Analytics 4 com o Bigquery.
+  tables:
+  - identifier: events_*
+    name: events_all
+  - identifier: events_intraday_*
+    name: events_intraday_all
+version: 2

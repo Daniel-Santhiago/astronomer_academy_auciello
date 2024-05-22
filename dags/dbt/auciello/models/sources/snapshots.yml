@@ -1,0 +1,11 @@
+sources:
+- database: auciello-design
+  name: snapshots
+  schema: snapshots
+  description: Snapshots criados o DBT
+  tables:
+  - identifier: produtos
+    name: produtos
+  - identifier: mapeamento_categorias
+    name: mapeamento_categorias
+version: 2

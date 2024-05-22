@@ -1,0 +1,9 @@
+sources:
+- database: auciello-design
+  name: searchconsole
+  schema: searchconsole
+  description: Fonte de dados Nativa do Google Search Console trazida pelo Google Big Query
+  tables:
+  - identifier: searchdata_site_impression
+    name: searchdata_site_impression
+version: 2

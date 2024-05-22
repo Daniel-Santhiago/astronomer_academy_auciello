@@ -1,0 +1,43 @@
+sources:
+- database: auciello-design
+  name: kondado
+  schema: kondado
+  description: >
+    Base de dados proveniente do conector **[Kondado](https://app.kondado.com.br/)**  
+  tables:
+  - identifier: tray_pedidos
+    name: tray_pedidos
+  - identifier: bling_pedidos
+    name: bling_pedidos
+  - identifier: bling_pedidos_itens
+    name: bling_pedidos_itens
+  - identifier: bling_produtos
+    name: bling_produtos
+  - identifier: bling_pedidos_compra
+    name: bling_pedidos_compra
+  - identifier: bling_pedidos_compra_itens
+    name: bling_pedidos_compra_itens
+  - identifier: bling_pedidos_compra_parcelas
+    name: bling_pedidos_compra_parcelas
+  - identifier: tray_orders_detalhes_additionalproductinfo
+    name: tray_orders_detalhes_additionalproductinfo
+  - identifier: bling_produtos_estruturacomponente
+    name: bling_produtos_estruturacomponente
+  - identifier: bling_produtosestoque
+    name: bling_produtosestoque
+  - identifier: bling_produtosestoque_deltas
+    name: bling_produtosestoque_deltas
+  - identifier: instagram_media
+    name: instagram_media
+  - identifier: instagram_media_insights
+    name: instagram_media_insights
+  - identifier: instagram_media_insights_deltas
+    name: instagram_media_insights_deltas
+  - identifier:  facebook_ad_insights
+    name: facebook_ad_insights
+  - identifier:  facebook_ad_insights_actions
+    name: facebook_ad_insights_actions
+  - identifier:  facebook_ad_insights_action_values
+    name: facebook_ad_insights_action_values
+
+version: 2

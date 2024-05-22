@@ -1,0 +1,17 @@
+sources:
+- database: auciello-design
+  name: google_ads_preview
+  schema: google_ads_preview
+  description: Fonte de dados Nativa do Google Ads trazida pelo Google Big Query
+  tables:
+  - identifier: p_ads_ClickStats_7216569972
+    name: p_ads_ClickStats
+  - identifier: p_ads_Campaign_7216569972
+    name: p_ads_Campaign
+  - identifier: p_ads_CampaignBasicStats_7216569972
+    name: p_ads_CampaignBasicStats
+  - identifier: p_ads_SearchQueryStats_7216569972
+    name: p_ads_SearchQueryStats
+  - identifier: p_ads_ShoppingProductStats_7216569972
+    name: p_ads_ShoppingProductStats
+version: 2

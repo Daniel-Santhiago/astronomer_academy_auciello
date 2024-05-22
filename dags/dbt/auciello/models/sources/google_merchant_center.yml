@@ -1,0 +1,9 @@
+sources:
+- database: auciello-design
+  name: gmc_transfer
+  schema: gmc_transfer
+  description: Fonte de dados Nativa do Google Merchant Center trazida pelo Google Big Query
+  tables:
+  - identifier: Products_641108502
+    name: Products
+version: 2

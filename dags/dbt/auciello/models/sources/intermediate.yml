@@ -1,0 +1,9 @@
+sources:
+- database: auciello-design
+  name: intermediate
+  schema: intermediate
+  tables:
+  - identifier: ga4_enhanced_events
+    name: enhanced_events
+
+version: 2

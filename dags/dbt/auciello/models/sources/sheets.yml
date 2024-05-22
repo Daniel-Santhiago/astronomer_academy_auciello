@@ -1,0 +1,28 @@
+sources:
+- database: auciello-design
+  name: sheets
+  schema: sheets
+  description: >
+      Planilhas Criadas no Google Sheets e sincronizadas com o Google Big Query
+      **[BLING Api v3 APPScript](https://docs.google.com/spreadsheets/d/1bL1t7p2VROhu_aezKMM3cYpRtcS5ldwMIYorLjNPFvs/edit#gid=1816211359)**
+  tables:
+  - identifier: mapping_facebook_ads
+    name: mapping_facebook_ads
+    description: https://docs.google.com/spreadsheets/d/1aBu2Mm0X6rmchDiineKX-gBoVnABoUu2S6tedv3-q7o/edit#gid=0
+  - identifier: melhor_envio_frete
+    name: melhor_envio_frete
+    description: Relatório de Envio - https://docs.google.com/spreadsheets/d/1IV3vIieHc0mKV7pNBpSq8b83PWcy6PZMDX1BfIJIC-I/edit#gid=61851868
+  - identifier: google_forms_minhas_leituras_9titulos
+    name: google_forms_minhas_leituras_9titulos
+    description: https://docs.google.com/spreadsheets/d/1MEMYt6JvpXEdmGtzmtpDj-okJmxxJXhL3gEul6BpESk/edit?resourcekey#gid=1321296567
+  - identifier: google_forms_minhas_leituras_18titulos
+    name: google_forms_minhas_leituras_18titulos
+    description: https://docs.google.com/spreadsheets/d/1MEMYt6JvpXEdmGtzmtpDj-okJmxxJXhL3gEul6BpESk/edit?resourcekey#gid=249823287
+  - identifier: google_forms_minhas_leituras_27titulos
+    name: google_forms_minhas_leituras_27titulos
+    description: https://docs.google.com/spreadsheets/d/1MEMYt6JvpXEdmGtzmtpDj-okJmxxJXhL3gEul6BpESk/edit?resourcekey#gid=19174134
+  - identifier: google_forms_minhas_leituras_54titulos
+    name: google_forms_minhas_leituras_54titulos
+    description: https://docs.google.com/spreadsheets/d/1MEMYt6JvpXEdmGtzmtpDj-okJmxxJXhL3gEul6BpESk/edit?resourcekey#gid=440804208
+
+version: 2

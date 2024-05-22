@@ -1,0 +1,11 @@
+sources:
+- database: auciello-design
+  name: isbndb
+  schema: isbndb
+  description: >
+    Base de dados resultante do script Python que acessa a API do ISBN DB e pesquisa os livros por uma query preenchida no Google Form  
+  tables:
+  - identifier: search_books_append
+    name: search_books_append
+
+version: 2

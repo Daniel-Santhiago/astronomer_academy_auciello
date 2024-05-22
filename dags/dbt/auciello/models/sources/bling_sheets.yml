@@ -1,0 +1,13 @@
+sources:
+- database: auciello-design
+  name: bling_sheets
+  schema: bling_sheets
+  description: >
+      Tabela Bling com Script criado em Google App Script para Sincronizar e atualizar BlingERP através do Google Sheets. 
+      **[BLING Api v3 APPScript](https://docs.google.com/spreadsheets/d/1bL1t7p2VROhu_aezKMM3cYpRtcS5ldwMIYorLjNPFvs/edit#gid=1816211359)**
+  tables:
+  - identifier: produtos
+    name: produtos
+  - identifier: mapeamento_categorias
+    name: mapeamento_categorias
+version: 2
